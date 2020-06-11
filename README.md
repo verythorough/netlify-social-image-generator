@@ -1,16 +1,13 @@
-# Onboarding Site Workflow Example
+# Generate Social Media Images With Cloudinary
 
-This site shows how `netlify-plugin-onboarding` works. To try it out, click the Deploy to Netlify button:
+This site creates social media sharing cards for the [Netlify blog](https://www.netlify.com/blog/?utm_source=github&utm_medium=netlify-social-images-jl&utm_campaign=devex). It’s powered by [Cloudinary](https://jason.af/cloudinary) and [Netlify Functions](https://www.netlify.com/products/functions/?utm_source=github&utm_medium=netlify-social-images-jl&utm_campaign=devex).
 
-[![Deploy to netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jlengstorf/onboarding-demo-site)
+The images look something like this:
 
-This will start the process of:
+![Add the title of the article you’re sharing! Wow! It’s so easy!](https://res.cloudinary.com/jlengstorf/image/upload/w_1300/g_west,c_fit,co_rgb:FFFFFFFF,w_1200,x_50,y_25,l_text:dillan.otf_110_line_spacing_-22:Add%20the%20title%20of%20the%20article%20you%E2%80%99re%20sharing!%20Wow!%20It%E2%80%99s%20so%20easy!/v1591839476/netlify/og.png)
 
-1. Creating your own repo with this site’s code in it
-2. Prompting you for environment variables
-   - **IMPORTANT:** if you want to see the onboarding flow, _do not_ fill in this variable!
-3. Creating and deploying a new Netlify site
+To make your own, click the Deploy to Netlify button:
 
-Once the site is done deploying, check out the site to see onboarding instructions. Follow the instructions and the real site will be deployed!
+[![Deploy to netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/jlengstorf/netlify-social-image-generator&utm_source=github&utm_medium=netlify-social-images-jl&utm_campaign=devex)
 
-If you’ve ever deployed a WordPress site, this is similar to the flow WordPress follows when you create a new WordPress site and open it for the first time.
+
