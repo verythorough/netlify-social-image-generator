@@ -8,6 +8,7 @@
 
 [template.environment]
   CLOUDINARY_CLOUD_NAME = "Your Cloudinary Cloud Name (e.g. @jlengstorf)"
+  CLOUDINARY_IMAGE_PUBLIC_ID = "Public ID for your social image template (e.g. v1591839476/social/og.png)"
 
 [dev]
   command = "npm run dev"
