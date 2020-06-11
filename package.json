@@ -1,5 +1,5 @@
 {
-  "name": "netlify-plugin-onboarding-demo",
+  "name": "og-generator",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,7 +13,8 @@
   "devDependencies": {},
   "scripts": {
     "maybe-build": "node maybe-build.js",
-    "build": "eleventy --input src --output public"
+    "build": "eleventy --input src --output public",
+    "dev": "eleventy --input src --output public --serve"
   },
   "repository": {
     "type": "git",

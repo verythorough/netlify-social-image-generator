@@ -1,9 +1,13 @@
 [build]
   command = "npm run maybe-build"
   publish = "public"
+  functions = "functions"
 
 [[plugins]]
   package = "netlify-plugin-onboarding"
 
 [template.environment]
-  GITHUB_USERNAME = "Your GitHub Username (e.g. @jlengstorf)"
+  CLOUDINARY_CLOUD_NAME = "Your Cloudinary Cloud Name (e.g. @jlengstorf)"
+
+[dev]
+  command = "npm run dev"
