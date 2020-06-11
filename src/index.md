@@ -64,13 +64,16 @@ layout: default
   <button>Generate Image</button>
 </form>
 
+<p>
+  This is powered by <a href="https://jason.af/cloudinary">Cloudinary</a> and <a href="https://www.netlify.com/products/functions/?utm_source=site&utm_medium=netlify-social-images-jl&utm_campaign=devex">Netlify Functions</a>. You can set up your own social media image generator in one click by <a href="https://app.netlify.com/start/deploy?repository=https://github.com/jlengstorf/netlify-social-image-generator&utm_source=site&utm_medium=netlify-social-images-jl&utm_campaign=devex">deploying your own instance to Netlify</a>.
+</p>
+
 <div class="output hidden">
-  <h2>Copy this URL to use as your social media image</h2>
-
-  <input type="text" class="generated-image-url" disabled />
-
-  <h4>Or right click and save this image to your repo.</h4>
+  <h2>Right click and save this image to your repo.</h2>
   <img class="generated-image" alt="" />
+
+  <h3>The full Cloudinary URL of this image is:</h3>
+  <input type="text" class="generated-image-url" disabled />
 </div>
 
 <script>
